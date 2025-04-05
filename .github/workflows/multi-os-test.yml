@@ -7,7 +7,7 @@ jobs:
     strategy:  #allows you to define a matrix of configurations for the job.
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        python-version: ['3.8', '3.9', '3.10']
+        python-version: ['3.10']
       fail-fast: false  # Continue testing other OS even if one job fails.
 
     runs-on: ${{ matrix.os }}  # specifies the environment in which the job will run.
