@@ -1,6 +1,6 @@
 name: Multi-OS Testing
 
-on: ['push', 'pull_request']  # Trigger the workflow on push and pull request events.
+on: ['push']  # Trigger the workflow on push and pull request events.
 
 jobs:
   test:
