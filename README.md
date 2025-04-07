@@ -5,6 +5,6 @@ This project ensures your Python code runs smoothly across **multiple operating 
 The setup includes:
 - Python code with tests
 - A workflow file to automate testing
-- GitHub Actions for CI/CD integration
+- GitHub Actions for CI integration
 
 Perfect for projects that need wide compatibility and reliable automated testing🚀
